@@ -1,0 +1,9 @@
+eureka:
+  server:
+    #eureka自我保护机制
+    enable-replicated-request-compression: false
+
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+
